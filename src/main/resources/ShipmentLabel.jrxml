@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.1.final using JasperReports Library version 6.20.1-7584acb244139816654f64e2fd57a00d3e31921e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="288" pageHeight="432" columnWidth="278" leftMargin="5" rightMargin="5" topMargin="5" bottomMargin="5" uuid="04da593c-752d-40e0-87fb-6f259cccd6d1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Lable"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="json">
+		<![CDATA[]]>
+	</queryString>
+	<field name="company_name" class="java.lang.String">
+		<fieldDescription><![CDATA[company_name]]></fieldDescription>
+	</field>
+	<field name="line1" class="java.lang.String">
+		<fieldDescription><![CDATA[line1]]></fieldDescription>
+	</field>
+	<field name="city" class="java.lang.String">
+		<fieldDescription><![CDATA[city]]></fieldDescription>
+	</field>
+	<field name="state_province" class="java.lang.String">
+		<fieldDescription><![CDATA[state_province]]></fieldDescription>
+	</field>
+	<field name="postal_code" class="java.lang.String">
+		<fieldDescription><![CDATA[postal_code]]></fieldDescription>
+	</field>
+	<field name="phone_number" class="java.lang.String">
+		<fieldDescription><![CDATA[phone_number]]></fieldDescription>
+	</field>
+	<field name="sms" class="java.lang.String">
+		<fieldDescription><![CDATA[sms]]></fieldDescription>
+	</field>
+	<field name="country_code" class="java.lang.String">
+		<fieldDescription><![CDATA[country_code]]></fieldDescription>
+	</field>
+	<field name="first_name" class="java.lang.String">
+		<fieldDescription><![CDATA[first_name]]></fieldDescription>
+	</field>
+	<field name="last_name" class="java.lang.String">
+		<fieldDescription><![CDATA[last_name]]></fieldDescription>
+	</field>
+	<field name="line1_1" class="java.lang.String">
+		<fieldDescription><![CDATA[line1]]></fieldDescription>
+	</field>
+	<field name="city_1" class="java.lang.String">
+		<fieldDescription><![CDATA[city]]></fieldDescription>
+	</field>
+	<field name="state_province_1" class="java.lang.String">
+		<fieldDescription><![CDATA[state_province]]></fieldDescription>
+	</field>
+	<field name="postal_code_1" class="java.lang.String">
+		<fieldDescription><![CDATA[postal_code]]></fieldDescription>
+	</field>
+	<field name="country_code_1" class="java.lang.String">
+		<fieldDescription><![CDATA[country_code]]></fieldDescription>
+	</field>
+	<field name="phone_number_1" class="java.lang.String">
+		<fieldDescription><![CDATA[phone_number]]></fieldDescription>
+	</field>
+	<field name="tracking_number" class="java.lang.String">
+		<fieldDescription><![CDATA[tracking_number]]></fieldDescription>
+	</field>
+	<field name="qr_code" class="java.lang.String">
+		<fieldDescription><![CDATA[qr_code]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="422" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="139" y="0" width="139" height="60" uuid="8974c7a4-eddb-43a6-b38e-5ab9e3b535ac"/>
+				<box padding="10">
+					<leftPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[www.frontdoorcorp.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="139" height="60" uuid="0fb574fe-677a-4637-b831-79d00057f17b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box padding="10"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FRONTdoor
+Collective]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="60" width="278" height="1" uuid="199e815c-a7f5-43db-beca-661cfddc5d52"/>
+			</line>
+			<line>
+				<reportElement x="0" y="121" width="278" height="1" uuid="d7eb6611-3189-4f12-86dc-a05166406f95"/>
+			</line>
+			<line>
+				<reportElement x="0" y="210" width="278" height="1" uuid="e2faa2df-8a15-4e5a-9790-1e27852f2100"/>
+			</line>
+			<line>
+				<reportElement x="0" y="341" width="278" height="1" uuid="58f36edb-43a5-49a5-bdfe-d3114a1b771b"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="61" width="72" height="60" uuid="34fa7de2-2d3e-4f73-bb5c-7256648b1ece"/>
+				<box>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="47" isBold="true"/>
+				</textElement>
+				<text><![CDATA[S]]></text>
+			</staticText>
+			<componentElement>
+				<reportElement x="0" y="140" width="278" height="54" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="9532982c-132c-4cf9-9bfd-3db78321fa12"/>
+				<jr:Code128 xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" moduleWidth="1.0" textPosition="none" quietZone="10.0" verticalQuietZone="10.0">
+					<jr:codeExpression><![CDATA[$F{tracking_number}]]></jr:codeExpression>
+				</jr:Code128>
+			</componentElement>
+			<textField>
+				<reportElement x="0" y="194" width="278" height="16" uuid="6278fd0b-a8ad-44e7-ab66-9ed561a50b90"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tracking_number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="121" width="278" height="19" uuid="e9bcadf0-00bd-4fa7-ac6c-ed0567851af4"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[FDC #]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="10" y="352" width="110" height="47" uuid="be5d2590-e282-4605-b9ab-8b01aaba29e2"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{tracking_number}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="132" y="350" width="68" height="60" uuid="89eb8df9-2405-4478-8c55-46ce147e753c"/>
+				<jr:QRCode xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<jr:codeExpression><![CDATA[$F{tracking_number}]]></jr:codeExpression>
+				</jr:QRCode>
+			</componentElement>
+			<textField>
+				<reportElement x="0" y="211" width="170" height="65" uuid="869f0b5b-c3fd-492a-b08c-459746f2f02c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="10"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{first_name} + " " + $F{last_name} + "\n " +  $F{line1} + "\n " + $F{city} + " " +$F{state_province} + " " + $F{postal_code} + "\n " + $F{country_code} + " " + $F{phone_number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="72" y="276" width="205" height="65" uuid="ae92fd64-1717-427f-bcba-76f2de4a4d6b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box padding="10"/>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{company_name} + "\n " + $F{line1_1} + "\n " + $F{city_1} + " " +$F{state_province_1} + " " + $F{postal_code_1}  + " " + $F{country_code_1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="228" width="80" height="30" backcolor="#000000" uuid="1bad61d3-ea5f-4a7e-b2e5-90f6c1731b3b"/>
+				<text><![CDATA[Static Text]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="421" width="278" height="1" uuid="8404c177-9267-458b-9489-8d5244b451fe"/>
+			</line>
+		</band>
+	</title>
+</jasperReport>

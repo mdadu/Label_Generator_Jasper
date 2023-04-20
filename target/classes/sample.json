@@ -1,0 +1,38 @@
+{ 
+    "request_id": "REQ12346",
+    "from_address": {
+        "company_name": "Trader Joe's",
+        "line1": "775 Haddonfield Rd",
+        "city": "Cherry Hill",
+        "state_province": "NJ",
+        "postal_code": "08002",
+        "phone_number": "6503915169",
+        "sms": "SMS4440404",
+        "email": "harry@redbrick247.com",
+        "country_code": "US"
+    },
+    "to_address": {
+        "first_name": "Customer",
+        "last_name": "Name",
+        "line1": "4531 Lower Honoapiilani Rd",
+        "city": "Lehaina",
+        "state_province": "HI",
+        "postal_code": "96761",
+        "phone_number": "8884445555",
+        "country_code": "US"
+    },
+    "weight": 0.5,
+    "weight_unit": "lb",
+    "image_format": "png",
+    "image_resolution": 300,
+    "front_door": {
+        "shape": "Parcel",
+        "service": "Standard",
+        "image_size": "4x6",
+        "tracking_number": "FCPF1A3B5C7x9676112AEI5ZIEJA1QU",
+        "client": {
+            "name": "International Bridge, Inc",
+          "qr_code": "775 Haddonfield Rd, Cherry Hill, NJ 08002\n12345678901234567890"
+        }
+    }
+}
